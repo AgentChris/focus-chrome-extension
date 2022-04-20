@@ -1,0 +1,23 @@
+{
+  "name": "Focus",
+  "version": "1.0.0",
+  "description": "focus on your work",
+  "manifest_version": 3,
+  "author": "Chris",
+  "action": {
+    "default_popup": "index.html",
+    "default_title": "Focus Bro"
+  },
+  "permissions": [
+    "tabs",
+    "storage"
+  ],
+  "icons": {
+    "16": "logo.png",
+    "48": "logo.png",
+    "128": "logo.png"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
